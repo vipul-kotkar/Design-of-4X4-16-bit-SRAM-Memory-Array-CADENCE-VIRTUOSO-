@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://github.com/VardhanSuroshi/Memory-Design-And-Tesing/assets/132068498/7fcb37de-2402-4ed4-92d1-5aa93e5e41a5" alt="Image" width="1000" height="500">
-</p>
-
 # Design of 4×4 16-bit SRAM Memory Array Using Cadence Virtuoso
 
 ## About
