@@ -110,7 +110,7 @@ The SRAM memory architecture employs a systematic arrangement of cells, word lin
 The fundamental storage unit is a 6T SRAM cell, which holds a single bit of data (logic 1 or 0). The architecture is designed for efficient data storage and retrieval.
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
-    <img src="vertopal_f4e039de98fe4b5e9e2edb8d44ba6bdc/media/image21.png" alt="Image 2" style="width: 40%;">
+     <img src="vertopal_f4e039de98fe4b5e9e2edb8d44ba6bdc/media/image21.png" alt="Image 2" style="width: 40%;">
     <img src="vertopal_f4e039de98fe4b5e9e2edb8d44ba6bdc/media/image3.png" alt="Image 3" style="width: 40%;">
 </div>
 
