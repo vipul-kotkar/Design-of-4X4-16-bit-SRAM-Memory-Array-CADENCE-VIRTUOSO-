@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://github.com/VardhanSuroshi/Memory-Design-And-Tesing/assets/132068498/7fcb37de-2402-4ed4-92d1-5aa93e5e41a5" alt="Image" width="1000" height="500">
-</p>
-
 # Design of 4×4 16-bit SRAM Memory Array Using Cadence Virtuoso
 
 ## About
@@ -114,8 +110,8 @@ The SRAM memory architecture employs a systematic arrangement of cells, word lin
 The fundamental storage unit is a 6T SRAM cell, which holds a single bit of data (logic 1 or 0). The architecture is designed for efficient data storage and retrieval.
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
-    <img src="vertopal_f4e039de98fe4b5e9e2edb8d44ba6bdc/media/image21.png" alt="Image 2" style="width: 40%;">
-    <img src="vertopal_f4e039de98fe4b5e9e2edb8d44ba6bdc/media/image3.png" alt="Image 3" style="width: 40%;">
+    <img width="2475" height="1333" alt="image21" src="https://github.com/user-attachments/assets/ef2e9e12-5498-42b5-8486-d2d30ec13e7b" />
+<img width="248" height="188" alt="image3" src="https://github.com/user-attachments/assets/6692e524-4968-4b29-bea5-1fd653fd7cce" />
 </div>
 
 ---
@@ -128,7 +124,8 @@ The pre-charge circuit charges the bit lines (BL and BL') to VDD before a read o
 - **Bias transistors** — pull each bit line to VDD.
 
 <p align="center">
-  <img src="vertopal_f4e039de98fe4b5e9e2edb8d44ba6bdc/media/image22.png" alt="Image" width="600">
+<img width="910" height="471" alt="image22" src="https://github.com/user-attachments/assets/16ab096d-d670-48f9-843c-e55624dd2a36" />
+
 </p>
 
 ---
@@ -138,7 +135,8 @@ The pre-charge circuit charges the bit lines (BL and BL') to VDD before a read o
 The isolation circuit isolates the sense amplifier from the bit lines once a small change on the bit lines is detected.
 
 <p align="center">
-  <img src="vertopal_f4e039de98fe4b5e9e2edb8d44ba6bdc/media/image23.png" alt="Image" width="600">
+<img width="1727" height="880" alt="image23" src="https://github.com/user-attachments/assets/3a818883-fc94-4bf0-93a5-95022e50fc45" />
+
 </p>
 
 ---
@@ -148,7 +146,8 @@ The isolation circuit isolates the sense amplifier from the bit lines once a sma
 The sense amplifier detects and amplifies the small voltage swing on bit lines to recognisable logic levels during a read operation, enabling reliable data interpretation.
 
 <p align="center">
-  <img src="https://github.com/VardhanSuroshi/Memory-Design-And-Testing/assets/132068498/20d01ab4-30c0-4812-b3c7-1a342ab89898" alt="Image" width="600">
+ <img width="948" height="680" alt="315063291-20d01ab4-30c0-4812-b3c7-1a342ab89898" src="https://github.com/user-attachments/assets/90f698c1-355e-4944-a8d9-a8d54b5a77b8" />
+
 </p>
 
 ---
@@ -158,7 +157,7 @@ The sense amplifier detects and amplifies the small voltage swing on bit lines t
 The write driver forces one bit line to zero while maintaining the pre-charged value on the other, enabling accurate data to be written into the SRAM cell.
 
 <p align="center">
-  <img src="vertopal_f4e039de98fe4b5e9e2edb8d44ba6bdc/media/image25.png" alt="Image" width="600">
+<img width="2049" height="1330" alt="image25" src="https://github.com/user-attachments/assets/be2b6e07-320c-4c89-9101-e59b5107d18e" />
 </p>
 
 ---
@@ -168,7 +167,8 @@ The write driver forces one bit line to zero while maintaining the pre-charged v
 The row and column to be accessed within the storage array are selected through decoding of binary address information, enabling precise access to the desired cell.
 
 <p align="center">
-  <img src="https://github.com/VardhanSuroshi/Memory-Design-And-Testing/assets/132068498/ec9339af-7f44-495b-a531-fc71a5b6b892" alt="Image" width="600">
+<img width="1145" height="926" alt="314407487-ec9339af-7f44-495b-a531-fc71a5b6b892" src="https://github.com/user-attachments/assets/db8f2390-52a5-4fff-9bdf-93d0c6e89896" />
+
 </p>
 
 ---
@@ -178,7 +178,8 @@ The row and column to be accessed within the storage array are selected through 
 Complete single-column SRAM block with all peripheral devices integrated:
 
 <p align="center">
-  <img src="vertopal_f4e039de98fe4b5e9e2edb8d44ba6bdc/media/image26.png" alt="Image" width="600">
+ <img width="3532" height="4120" alt="image26" src="https://github.com/user-attachments/assets/8024c151-0e51-43ba-bb98-8239661f622b" />
+
 </p>
 
 ---
@@ -188,7 +189,8 @@ Complete single-column SRAM block with all peripheral devices integrated:
 ### SRAM Cell Design
 
 <p align="center">
-  <img src="vertopal_f4e039de98fe4b5e9e2edb8d44ba6bdc/media/image21.png" alt="Image" width="600">
+ <img width="2475" height="1333" alt="image21" src="https://github.com/user-attachments/assets/5033f18e-4e62-460a-af25-74fe21cbfd17" />
+
 </p>
 
 ---
@@ -242,8 +244,9 @@ PR should be less than 1 (typically ~0.85) to ensure write-ability.
 Cell stability is characterised by the **Butterfly Curve** — obtained by superimposing the voltage transfer curves (VTC) of both inverters. The **Static Noise Margin (SNM)** is measured as the side length of the largest square that fits within a butterfly wing.
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
-    <img src="vertopal_f4e039de98fe4b5e9e2edb8d44ba6bdc/media/image13.png" alt="Image 2" style="width: 40%;">
-    <img src="vertopal_f4e039de98fe4b5e9e2edb8d44ba6bdc/media/image14.png" alt="Image 3" style="width: 40%;">
+   <img width="576" height="440" alt="image13" src="https://github.com/user-attachments/assets/25b60bb2-2911-43ce-bf69-035014c759f5" />
+<img width="341" height="306" alt="image14" src="https://github.com/user-attachments/assets/5f390a06-3857-4cc8-8bda-689405917dee" />
+
 </div>
 
 *Figure: (a) Butterfly curve — Hold state. (b) Butterfly curve — Read state.*
@@ -277,7 +280,8 @@ With WL = 1 and bit lines pre-charged to VDD, the voltage divider effect at the 
 Circuit diagram of the 6T SRAM cell:
 
 <p align="center">
-  <img src="vertopal_f4e039de98fe4b5e9e2edb8d44ba6bdc/media/image4.png" alt="Image" width="600">
+ <img width="2412" height="1333" alt="image4" src="https://github.com/user-attachments/assets/70d2e627-337e-438f-95b1-9dbd671cef56" />
+
 </p>
 
 ---
@@ -289,13 +293,15 @@ Circuit diagram of the 6T SRAM cell:
 Testbench schematic:
 
 <p align="center">
-  <img src="vertopal_f4e039de98fe4b5e9e2edb8d44ba6bdc/media/image5.png" alt="Image" width="600">
+  <img width="691" height="358" alt="image5" src="https://github.com/user-attachments/assets/d3191f2c-9a59-49a5-9d66-d6aff57d109d" />
+
 </p>
 
 Timing diagram:
 
 <p align="center">
-  <img src="vertopal_f4e039de98fe4b5e9e2edb8d44ba6bdc/media/image6.png" alt="Image" width="600">
+ <img width="800" height="600" alt="image6" src="https://github.com/user-attachments/assets/f94fbf7f-0bff-427d-9b4f-46b3aeb024c5" />
+
 </p>
 
 ---
@@ -305,13 +311,15 @@ Timing diagram:
 Testbench schematic:
 
 <p align="center">
-  <img src="vertopal_f4e039de98fe4b5e9e2edb8d44ba6bdc/media/image7.png" alt="Image" width="600">
+<img width="707" height="398" alt="image7" src="https://github.com/user-attachments/assets/a136ffda-3acb-4a0f-ab00-52831067d084" />
+
 </p>
 
 Timing diagram:
 
 <p align="center">
-  <img src="vertopal_f4e039de98fe4b5e9e2edb8d44ba6bdc/media/image8.png" alt="Image" width="600">
+  <img width="800" height="600" alt="image8" src="https://github.com/user-attachments/assets/0fe532ad-7b26-44bc-9127-dc8d2001de6d" />
+
 </p>
 
 ---
@@ -323,13 +331,15 @@ Timing diagram:
 Testbench schematic:
 
 <p align="center">
-  <img src="vertopal_f4e039de98fe4b5e9e2edb8d44ba6bdc/media/image9.png" alt="Image" width="600">
+<img width="1348" height="730" alt="image9" src="https://github.com/user-attachments/assets/aadb7d7c-b0e1-4ce3-9bf2-d231f31cfa9b" />
+
 </p>
 
 Timing diagram:
 
 <p align="center">
-  <img src="vertopal_f4e039de98fe4b5e9e2edb8d44ba6bdc/media/image10.png" alt="Image" width="600">
+ <img width="1368" height="503" alt="image10" src="https://github.com/user-attachments/assets/0bd09a50-109c-47cd-ac52-a25c2a393618" />
+
 </p>
 
 ---
@@ -339,13 +349,15 @@ Timing diagram:
 Testbench schematic:
 
 <p align="center">
-  <img src="vertopal_f4e039de98fe4b5e9e2edb8d44ba6bdc/media/image11.png" alt="Image" width="600">
+ <img width="677" height="376" alt="image11" src="https://github.com/user-attachments/assets/b2c22fb9-8c98-44ec-bea5-72b3dd3509ac" />
+
 </p>
 
 Timing diagram:
 
 <p align="center">
-  <img src="vertopal_f4e039de98fe4b5e9e2edb8d44ba6bdc/media/image12.png" alt="Image" width="600">
+  <img width="1368" height="535" alt="image12" src="https://github.com/user-attachments/assets/89f893d9-acdf-48d2-8632-bd5f26d0d714" />
+
 </p>
 
 ---
@@ -355,7 +367,8 @@ Timing diagram:
 #### Hold State Stability Analysis
 
 <p align="center">
-  <img src="vertopal_f4e039de98fe4b5e9e2edb8d44ba6bdc/media/image15.png" alt="Image" width="600">
+ <img width="1407" height="789" alt="image15" src="https://github.com/user-attachments/assets/4785b6e7-cf1e-46e5-9ca0-f42e29fe9098" />
+
 </p>
 
 Butterfly curve — Hold state:
@@ -375,13 +388,15 @@ SNM = min(SNM1, SNM2)
 #### Read State Stability Analysis
 
 <p align="center">
-  <img src="vertopal_f4e039de98fe4b5e9e2edb8d44ba6bdc/media/image17.png" alt="Image" width="600">
+ <img width="710" height="410" alt="image17" src="https://github.com/user-attachments/assets/af6211f6-d28e-46be-afdb-fadc7fe8700c" />
+
 </p>
 
 Butterfly curve — Read state:
 
 <p align="center">
-  <img src="vertopal_f4e039de98fe4b5e9e2edb8d44ba6bdc/media/image18.png" alt="Image" width="600">
+<img width="800" height="600" alt="image18" src="https://github.com/user-attachments/assets/0ded70b6-4b5e-438a-a61c-c7742e0b30ab" />
+
 </p>
 
 ```
@@ -401,13 +416,15 @@ The pre-charge circuit was designed to charge BL and BL' (120 fF load each) to V
 Testbench schematic (transistor width = 12 µm):
 
 <p align="center">
-  <img src="vertopal_f4e039de98fe4b5e9e2edb8d44ba6bdc/media/image19.png" alt="Image" width="600">
+ <img width="1177" height="502" alt="image19" src="https://github.com/user-attachments/assets/4742bbcd-b211-46d1-82c9-521e1a292f4d" />
+
 </p>
 
 Timing diagram:
 
 <p align="center">
-  <img src="vertopal_f4e039de98fe4b5e9e2edb8d44ba6bdc/media/image20.png" alt="Image" width="600">
+ <img width="842" height="525" alt="image20" src="https://github.com/user-attachments/assets/5cf412e2-7eac-4196-a208-8494a32a82e5" />
+
 </p>
 
 ---
@@ -417,7 +434,8 @@ Timing diagram:
 The write driver was designed for minimal latency. Simulation measures the time taken to produce the required voltage difference on BL and BL':
 
 <p align="center">
-  <img src="vertopal_f4e039de98fe4b5e9e2edb8d44ba6bdc/media/image29.png" alt="Image" width="600">
+<img width="893" height="609" alt="image29" src="https://github.com/user-attachments/assets/8e815f76-2043-493a-9379-1d6028c34967" />
+
 </p>
 
 > **Write driver latency: 0.5249 ns**
@@ -429,7 +447,8 @@ The write driver was designed for minimal latency. Simulation measures the time 
 Simulation measures the time taken to detect a 200 mV sense margin between BL and BL' after WL goes HIGH:
 
 <p align="center">
-  <img src="vertopal_f4e039de98fe4b5e9e2edb8d44ba6bdc/media/image28.png" alt="Image" width="600">
+  <img width="1388" height="698" alt="image28" src="https://github.com/user-attachments/assets/da6e760a-2f73-4292-8d41-a4718aeef25b" />
+
 </p>
 
 > **Sense amplifier delay: 86.17 ps**
@@ -441,13 +460,15 @@ Simulation measures the time taken to detect a 200 mV sense margin between BL an
 Full schematic with all peripheral devices connected:
 
 <p align="center">
-  <img src="vertopal_f4e039de98fe4b5e9e2edb8d44ba6bdc/media/image26.png" alt="Image" width="600">
+ <img width="3532" height="4120" alt="image26" src="https://github.com/user-attachments/assets/7f9d3df6-f985-4224-989f-1b2ec4891153" />
+
 </p>
 
 Timing diagram — Write "1" → Read "1" → Write "0" → Read "0":
 
 <p align="center">
-  <img src="vertopal_f4e039de98fe4b5e9e2edb8d44ba6bdc/media/image27.png" alt="Image" width="600">
+ <img width="1096" height="494" alt="image27" src="https://github.com/user-attachments/assets/fde18aa1-8add-47ef-8211-1f0c3693dd83" />
+
 </p>
 
 ---
@@ -459,7 +480,8 @@ A complete 4×4 16-bit memory array was designed with row decoder, column decode
 Schematic:
 
 <p align="center">
-  <img src="vertopal_f4e039de98fe4b5e9e2edb8d44ba6bdc/media/image30.png" alt="Image" width="600">
+ <img width="3268" height="3016" alt="image30" src="https://github.com/user-attachments/assets/37ded8ac-e461-4155-bd45-207ab6a19479" />
+
 </p>
 
 ---
@@ -484,8 +506,3 @@ Through this project, I designed, simulated, and analysed a complete SRAM archit
 
 The project represents a practical deep-dive into full-custom analog/mixed-signal memory design and serves as a portfolio reference for SRAM cell sizing, stability analysis, transistor ratio optimisation, and peripheral circuit design in a production-grade EDA environment.
 
----
-
-## Acknowledgment
-
-I built this project independently to deepen my hands-on proficiency with full-custom SRAM design using the Cadence toolchain. Thanks to the open-source community and public GPDK 180nm documentation for making this kind of self-directed learning possible. Contributions, issues, and discussions are welcome.
